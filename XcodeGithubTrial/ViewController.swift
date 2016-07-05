@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        // Refer: https://github.com/g08m11/Debug
+        Debug.log("ここまできてる")
+
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("Hellow World")
